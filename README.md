@@ -8,4 +8,5 @@ To start it locally you have to:
 * install requirements from requirements.txt `pip install -r requirements.txt`
 * then you can start it with `python app.py`
 
-If you go to main url (localhost:5000/) you'll see a form where you can enter a text and delay (in seconds) you want to have for your email. In this repo outgoing and incoming email addresses are dummy, feel free to update them. 
+If you go to main url (localhost:5000/ in default settings) you'll see a form where you can enter a text and delay (in seconds) you want to have for your email. In this repo outgoing and incoming email addresses are dummy, feel free to update them. 
+If you go to url /last_tasks you'll see a list of last 10 scheduled emails. 
