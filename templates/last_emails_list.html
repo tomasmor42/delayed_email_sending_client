@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Last emails list{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+    <ul id="emails">
+    {% for item in emails%}
+        <li>{{ item.__repr__() }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

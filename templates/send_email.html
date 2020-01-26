@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Main{% endblock %}
+{% block head %}
+    {{ super() }}
+    <form method="POST" action="/response">
+   Text: <input type="text" name="text" required><br>
+   Timer: <input type="int" name="timer" required><br>
+   <input type="submit" value="Submit">
+  </form>
+    </style>
+{% endblock %}
